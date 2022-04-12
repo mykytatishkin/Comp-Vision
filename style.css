@@ -10,7 +10,10 @@ body{
 }
 
 .imagine-style{
-    border-radius: 1em;
+    border-radius: 25px;
+    padding: 0.2em;
+    background-color: #16191c;
+    border: 2px solid #16191c;
 }
 
 .text-style{
@@ -21,4 +24,11 @@ body{
 hr{
     color: whitesmoke;
     margin: 0em;
+}
+
+.text-block{
+    background-color: #16191c;
+    border-radius: 12px;
+    padding: 1em;
+    margin: 1px;
 }
