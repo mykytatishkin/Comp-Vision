@@ -7,7 +7,7 @@ function sendImg() {
 	// Create error text
 	const para = document.createElement("p");
 	const node = document.createTextNode("There is no image loaded!");
-	para.setAttribute("class", "text-danger bg-dark");
+	para.setAttribute("class", "text-danger bg-dark text-center");
 	para.appendChild(node);
 	main.appendChild(para);
     }
