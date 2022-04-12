@@ -1,4 +1,6 @@
-# Openvision frontend
-https://openvisionapi.com/#demo
+# Computer vision frontend
 
+https://demianruban.github.io/
+
+## Early sketch
 ![img](sketch.png)
