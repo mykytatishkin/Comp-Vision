@@ -12,3 +12,13 @@ body{
 .imagine-style{
     border-radius: 1em;
 }
+
+.text-style{
+    color: whitesmoke;
+    border: 1px;
+}
+
+hr{
+    color: whitesmoke;
+    margin: 0em;
+}
