@@ -33,6 +33,12 @@ hr {
     margin: 1px;
 }
 
+.index-block{
+    background-color: #5d6975;
+    border-radius: 1em;
+    padding: 1em;
+}
+
 .drag-and-drop {
     display: flex;
     /* align-items: center; */
