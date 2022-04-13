@@ -83,3 +83,8 @@ function showFile() {
         dragText.textContent = "Drag & Drop to Upload File";
     }
 }
+
+// Here we will delete our image
+function deleteImg(){
+    delete file
+}
