@@ -1,3 +1,32 @@
+function sendImg() {
+
+    const main = document.querySelectorAll("main")[0];
+    console.log(main);
+
+    if (dropArea.getElementsByTagName("img").length == 0) { // check if user loaded image
+	// Create error text
+	const para = document.createElement("p");
+	const node = document.createTextNode("There is no image loaded!");
+	para.setAttribute("class", "text-danger bg-dark text-center");
+	para.appendChild(node);
+	main.appendChild(para);
+    }
+//    const options = {
+//	    method: 'POST',
+//	    headers: {
+//		    'content-type': 'application/json',
+//		    'X-RapidAPI-Host': 'image-labeling1.p.rapidapi.com',
+//		    'X-RapidAPI-Key': ''
+//	    },
+//	    body: '{"url":"./download.jpeg"}'
+//    };
+//
+//    fetch('https://image-labeling1.p.rapidapi.com/img/label', options)
+//	    .then(response => response.json())
+//	    .then(response => console.log(response))
+//	    .catch(err => console.error(err));
+}
+
 //selecting all required elements
 const dropArea = document.querySelector(".drag-area"),
     dragText = dropArea.querySelector("header"),
