@@ -1,15 +1,14 @@
 function sendImg() {
 
-    const main = document.querySelectorAll("main")[0];
-    console.log(main);
-
     if (dropArea.getElementsByTagName("img").length == 0) { // check if user loaded image
+	const main = document.querySelectorAll("main")[0];
 	// Create error text
 	const para = document.createElement("p");
 	const node = document.createTextNode("There is no image loaded!");
 	para.setAttribute("class", "text-danger bg-dark text-center");
 	para.appendChild(node);
 	main.appendChild(para);
+
     }
 //    const options = {
 //	    method: 'POST',
