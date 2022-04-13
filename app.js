@@ -86,5 +86,5 @@ function showFile() {
 
 // Here we will delete our image
 function deleteImg(){
-    delete file
+    window.location.reload();
 }
