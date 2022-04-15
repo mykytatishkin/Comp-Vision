@@ -43,15 +43,19 @@
                             <header>Drag & Drop to Upload File</header>
                             <span>OR</span>
                             <button>Browse File</button>
-                            <input type="file" hidden>
+			    <input type="file" hidden> <!-- this is original -->
+
+			    <!-- sends img to php file that will save it, but it doesn't work :( -->
+			    <!-- <input type="file" name="img_receiver" formmethod="post" formaction="./saveimg.php" hidden> -->
                         </div>
                     </div>
                     <div class="col index-block">
-                        <div class="h-100 text-white shadow-lg rounded-3 p-3 px-5">
-                            <h1 class="text-center">Info (not real data)</h1>
-                            <p>Pet:	      98%</p>
+                        <div id="imageInfo" class="h-100 text-white shadow-lg rounded-3 p-3 px-5">
+                            <h1 class="text-center">No Info</h1>
+			    <!-- Example format
+                            <p>Pet:	  98%</p>
                             <p>Grass:     98%</p>
-                            <p>Dog:	      98%</p>
+                            <p>Dog:       98%</p>
                             <p>Animal:    98%</p>
                             <p>Mammal:    98%</p>
                             <p>Green:     98%</p>
@@ -59,14 +63,12 @@
                             <p>Meadow:    98%</p>
                             <p>Dog breed: 98%</p>
                             <p>Puppy:     98%</p>
+			    -->
                         </div>
-                    <div>
-		        </div>
-	        </div>
-            <button onclick="sendImg()" type="button" class="col btn btn-primary mx-auto mt-3">Analize image</button>
-				</div>
-			</div>
-		</main>
-		<script src="app.js"></script>
+		    </div>
+		    <button onclick="sendImg()" type="button" class="col btn btn-primary mx-auto mt-3">Analize image</button>
+	    <div>
+	</main>
+	<script src="app.js"></script>
     </body>
 </html>
